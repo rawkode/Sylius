@@ -365,7 +365,3 @@ This is the reason why we do not currently include any, but if you have an idea 
 
 The bundle requires only the ``summary.html.twig`` template for cart summary page.
 The easiest way to override the view is by placing it here ``app/Resources/SyliusCartBundle/views/Cart/summary.html.twig``.
-
-.. note::
-
-    You can use `the templates from our Sylius app as inspiration <https://github.com/Sylius/Sylius/blob/master/src/Sylius/Bundle/WebBundle/Resources/views/Frontend/Cart/summary.html.twig>`_.

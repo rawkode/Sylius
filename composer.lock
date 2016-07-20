@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3933e4fcbb56494b6df69eee8a0022b2",
-    "content-hash": "66eedeb56cc54d23081335ddf8ca3b7c",
+    "hash": "0955e7b8fea55d681102a2c7b0799c2c",
+    "content-hash": "cec0542fb53eea7c0900201c1786a0e9",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -2976,7 +2976,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -7377,7 +7377,7 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony CMF Community",
+                    "name": "Symfony CMF community",
                     "homepage": "https://github.com/symfony-cmf/Routing/contributors"
                 }
             ],

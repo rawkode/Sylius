@@ -1,5 +1,4 @@
 ## CHANGELOG
-
 ### v0.19.0 2016-07-06
 - [#5443](https://github.com/Sylius/Sylius/pull/5443) [Composer] Lock doctrine/data-fixtures at 1.1.* (@pamil)
 - [#5441](https://github.com/Sylius/Sylius/pull/5441) Move sylius.ui.* translations and from WebBundle to UiBundle (@pamil)
