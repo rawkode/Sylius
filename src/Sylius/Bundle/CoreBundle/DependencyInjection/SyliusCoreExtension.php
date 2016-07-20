@@ -69,7 +69,6 @@ class SyliusCoreExtension extends AbstractResourceExtension implements PrependEx
 
         $configFiles = [
             'services.xml',
-            'controller.xml',
             'context.xml',
             'form.xml',
             'api_form.xml',
