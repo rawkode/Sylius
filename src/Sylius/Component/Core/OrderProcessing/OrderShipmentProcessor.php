@@ -73,17 +73,17 @@ final class OrderShipmentProcessor implements OrderProcessorInterface
             return $order->getShipments()->first();
         }
 
-        try {
-            /** @var ShipmentInterface $shipment */
-            $shipment = $this->shipmentFactory->createNew();
-            $shipment->setOrder($order);
-            $shipment->setMethod($this->defaultShippingMethodResolver->getDefaultShippingMethod($shipment));
-
-            $order->addShipment($shipment);
-
-            return $shipment;
-        } catch (UnresolvedDefaultShippingMethodException $exception) {
+//        try {
+//            /** @var ShipmentInterface $shipment */
+//            $shipment = $this->shipmentFactory->createNew();
+//            $shipment->setOrder($order);
+//            $shipment->setMethod($this->defaultShippingMethodResolver->getDefaultShippingMethod($shipment));
+//
+//            $order->addShipment($shipment);
+//
+//            return $shipment;
+//        } catch (UnresolvedDefaultShippingMethodException $exception) {
             return null;
-        }
+//        }
     }
 }
